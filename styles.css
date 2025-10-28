@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hero{
+	width: 98vw;
+	height: 50vh;
+	display: flex;
+}
+.hero img{
+	width:70%;
+	height: 100%;
+}
+.right{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin:5%;
+}
